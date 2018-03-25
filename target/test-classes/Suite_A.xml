@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A">
+
+<test name="Test A1">
+    <classes>
+        <class name="com.tsys.san.testcases.DummyTestA" ></class>  
+    </classes>
+</test>
+
+<test name="Test B">
+    <classes>
+        <class name="com.tsys.san.testcases.DummyTestB" ></class>  
+    </classes>
+</test>
+
+<test name="Test C">
+    <classes>
+        <class name="com.tsys.san.testcases.DummyTestC" ></class>  
+    </classes>
+</test>
+</suite>
+

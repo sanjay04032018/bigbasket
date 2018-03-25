@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [bigbasket]" parallel="classes">
+  <listeners>
+    <listener class-name="com.tsys.san.util.Listeners"/>
+  </listeners>
+  <test name="simpletests(failed)" parallel="classes">
+    <classes>
+      <class name="com.tsys.san.bigbasket.testcases.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="LoginTests" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.tsys.san.bigbasket.testcases.LoginTest -->
+      <class name="com.tsys.san.bigbasket.testcases.AddMoreproducts">
+        <methods>
+          <include name="Login"/>
+          <include name="quit"/>
+          <include name="addItems" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.tsys.san.bigbasket.testcases.AddMoreproducts -->
+      <class name="com.tsys.san.bigbasket.testcases.Addproducts">
+        <methods>
+          <include name="quit"/>
+          <include name="addItems" invocation-numbers="0 1 2"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.tsys.san.bigbasket.testcases.Addproducts -->
+    </classes>
+  </test> <!-- simpletests(failed) -->
+</suite> <!-- Failed suite [bigbasket] -->

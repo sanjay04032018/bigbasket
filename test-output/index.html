@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-bigbasket">
+              <span class="suite-name border-failed">bigbasket</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-bigbasket">
+                    <span>D:\Automation Projects\Data_driven_march\Data_driven_March18\src\test\resources\bigbasket.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-bigbasket">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-bigbasket">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-bigbasket">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-bigbasket">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-bigbasket">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-bigbasket">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 3 failed,  3 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-bigbasket" class="hide-methods failed suite-bigbasket"> (hide)</a> <!-- hide-methods failed suite-bigbasket -->
+                      <a href="#" panel-name="suite-bigbasket" class="show-methods failed suite-bigbasket"> (show)</a> <!-- show-methods failed suite-bigbasket -->
+                    </span>
+                    <div class="method-list-content failed suite-bigbasket">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigbasket" title="com.tsys.san.bigbasket.testcases.Addproducts" hash-for-method="addItems({Item=orange, Runmode=Y, Quantity=1.0})">addItems({Item=orange, Runmode=Y, Quantity=1.0})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigbasket" title="com.tsys.san.bigbasket.testcases.Addproducts" hash-for-method="addItems({Item=Apple, Runmode=Y, Quantity=2.0})">addItems({Item=Apple, Runmode=Y, Quantity=2.0})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigbasket" title="com.tsys.san.bigbasket.testcases.Addproducts" hash-for-method="addItems({Item=Tomato, Runmode=Y, Quantity=5.0})">addItems({Item=Tomato, Runmode=Y, Quantity=5.0})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-bigbasket -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-bigbasket" class="hide-methods skipped suite-bigbasket"> (hide)</a> <!-- hide-methods skipped suite-bigbasket -->
+                      <a href="#" panel-name="suite-bigbasket" class="show-methods skipped suite-bigbasket"> (show)</a> <!-- show-methods skipped suite-bigbasket -->
+                    </span>
+                    <div class="method-list-content skipped suite-bigbasket">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigbasket" title="com.tsys.san.bigbasket.testcases.LoginTest" hash-for-method="LoginTests({password=hewitt01, Runmode=N, Text=kanchan, Loginname=sanjaybadoni5@gmail.com})">LoginTests({password=hewitt01, Runmode=N, Text=kanchan, Loginname=sanjaybadoni5@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigbasket" title="com.tsys.san.bigbasket.testcases.AddMoreproducts" hash-for-method="addItems({Item=banana, Runmode=N, Quantity=5.0})">addItems({Item=banana, Runmode=N, Quantity=5.0})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigbasket" title="com.tsys.san.bigbasket.testcases.AddMoreproducts" hash-for-method="addItems({Item=grapes, Runmode=N, Quantity=1.0})">addItems({Item=grapes, Runmode=N, Quantity=1.0})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-bigbasket -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-bigbasket" class="hide-methods passed suite-bigbasket"> (hide)</a> <!-- hide-methods passed suite-bigbasket -->
+                      <a href="#" panel-name="suite-bigbasket" class="show-methods passed suite-bigbasket"> (show)</a> <!-- show-methods passed suite-bigbasket -->
+                    </span>
+                    <div class="method-list-content passed suite-bigbasket">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigbasket" title="com.tsys.san.bigbasket.testcases.LoginTest" hash-for-method="LoginTests({password=hewitt01, Runmode=Y, Text=Sanjay, Loginname=sanjaybadoni5@gmail.com})">LoginTests({password=hewitt01, Runmode=Y, Text=Sanjay, Loginname=sanjaybadoni5@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigbasket" title="com.tsys.san.bigbasket.testcases.AddMoreproducts" hash-for-method="addItems({Item=Almonds, Runmode=Y, Quantity=2.0})">addItems({Item=Almonds, Runmode=Y, Quantity=2.0})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-bigbasket -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-bigbasket" class="panel bigbasket">
+          <div class="suite-bigbasket-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tsys.san.bigbasket.testcases.Addproducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItems({Item=orange, Runmode=Y, Quantity=1.0})">
+                  </a> <!-- addItems({Item=orange, Runmode=Y, Quantity=1.0}) -->
+                  <span class="method-name">addItems</span>
+                  <span class="parameters">({Item=orange, Runmode=Y, Quantity=1.0})</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.tsys.san.bigbasket.testcases.Addproducts.addItems(Addproducts.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItems({Item=Apple, Runmode=Y, Quantity=2.0})">
+                  </a> <!-- addItems({Item=Apple, Runmode=Y, Quantity=2.0}) -->
+                  <span class="method-name">addItems</span>
+                  <span class="parameters">({Item=Apple, Runmode=Y, Quantity=2.0})</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.tsys.san.bigbasket.testcases.Addproducts.addItems(Addproducts.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItems({Item=Tomato, Runmode=Y, Quantity=5.0})">
+                  </a> <!-- addItems({Item=Tomato, Runmode=Y, Quantity=5.0}) -->
+                  <span class="method-name">addItems</span>
+                  <span class="parameters">({Item=Tomato, Runmode=Y, Quantity=5.0})</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.tsys.san.bigbasket.testcases.Addproducts.addItems(Addproducts.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigbasket-class-failed -->
+          <div class="suite-bigbasket-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.tsys.san.bigbasket.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTests({password=hewitt01, Runmode=N, Text=kanchan, Loginname=sanjaybadoni5@gmail.com})">
+                  </a> <!-- LoginTests({password=hewitt01, Runmode=N, Text=kanchan, Loginname=sanjaybadoni5@gmail.com}) -->
+                  <span class="method-name">LoginTests</span>
+                  <span class="parameters">({password=hewitt01, Runmode=N, Text=kanchan, Loginname=sanjaybadoni5@gmail.com})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.tsys.san.bigbasket.testcases.LoginTest.LoginTests(LoginTest.java:25)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigbasket-class-skipped -->
+          <div class="suite-bigbasket-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.tsys.san.bigbasket.testcases.AddMoreproducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItems({Item=banana, Runmode=N, Quantity=5.0})">
+                  </a> <!-- addItems({Item=banana, Runmode=N, Quantity=5.0}) -->
+                  <span class="method-name">addItems</span>
+                  <span class="parameters">({Item=banana, Runmode=N, Quantity=5.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.tsys.san.bigbasket.testcases.AddMoreproducts.addItems(AddMoreproducts.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItems({Item=grapes, Runmode=N, Quantity=1.0})">
+                  </a> <!-- addItems({Item=grapes, Runmode=N, Quantity=1.0}) -->
+                  <span class="method-name">addItems</span>
+                  <span class="parameters">({Item=grapes, Runmode=N, Quantity=1.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.tsys.san.bigbasket.testcases.AddMoreproducts.addItems(AddMoreproducts.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigbasket-class-skipped -->
+          <div class="suite-bigbasket-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tsys.san.bigbasket.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTests({password=hewitt01, Runmode=Y, Text=Sanjay, Loginname=sanjaybadoni5@gmail.com})">
+                  </a> <!-- LoginTests({password=hewitt01, Runmode=Y, Text=Sanjay, Loginname=sanjaybadoni5@gmail.com}) -->
+                  <span class="method-name">LoginTests</span>
+                  <span class="parameters">({password=hewitt01, Runmode=Y, Text=Sanjay, Loginname=sanjaybadoni5@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigbasket-class-passed -->
+          <div class="suite-bigbasket-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tsys.san.bigbasket.testcases.AddMoreproducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItems({Item=Almonds, Runmode=Y, Quantity=2.0})">
+                  </a> <!-- addItems({Item=Almonds, Runmode=Y, Quantity=2.0}) -->
+                  <span class="method-name">addItems</span>
+                  <span class="parameters">({Item=Almonds, Runmode=Y, Quantity=2.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigbasket-class-passed -->
+        </div> <!-- panel bigbasket -->
+        <div panel-name="test-xml-bigbasket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation Projects\Data_driven_march\Data_driven_March18\src\test\resources\bigbasket.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; name=&quot;bigbasket&quot; parallel=&quot;classes&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.tsys.san.util.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;simpletests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tsys.san.bigbasket.testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.tsys.san.bigbasket.testcases.Addproducts&quot;/&gt;
+      &lt;class name=&quot;com.tsys.san.bigbasket.testcases.AddMoreproducts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- simpletests --&gt;
+  &lt;test name=&quot;simpletests1&quot;&gt;
+  &lt;/test&gt; &lt;!-- simpletests1 --&gt;
+&lt;/suite&gt; &lt;!-- bigbasket --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-bigbasket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for bigbasket</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">simpletests (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">simpletests1 (0 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-bigbasket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for bigbasket</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-bigbasket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for bigbasket</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_bigbasket');
+function tableData_bigbasket() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginTests')
+data.setCell(0, 2, 'com.tsys.san.bigbasket.testcases.LoginTest')
+data.setCell(0, 3, 32579);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addItems')
+data.setCell(1, 2, 'com.tsys.san.bigbasket.testcases.AddMoreproducts')
+data.setCell(1, 3, 27497);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addItems')
+data.setCell(2, 2, 'com.tsys.san.bigbasket.testcases.Addproducts')
+data.setCell(2, 3, 12);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addItems')
+data.setCell(3, 2, 'com.tsys.san.bigbasket.testcases.AddMoreproducts')
+data.setCell(3, 3, 12);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addItems')
+data.setCell(4, 2, 'com.tsys.san.bigbasket.testcases.AddMoreproducts')
+data.setCell(4, 3, 10);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addItems')
+data.setCell(5, 2, 'com.tsys.san.bigbasket.testcases.Addproducts')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginTests')
+data.setCell(6, 2, 'com.tsys.san.bigbasket.testcases.LoginTest')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addItems')
+data.setCell(7, 2, 'com.tsys.san.bigbasket.testcases.Addproducts')
+data.setCell(7, 3, 0);
+window.suiteTableData['bigbasket']= { tableData: data, tableDiv: 'times-div-bigbasket'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-bigbasket">
+              </div> <!-- times-div-bigbasket -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-bigbasket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for bigbasket</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-bigbasket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-bigbasket" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.AddMoreproducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.Addproducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Login</span>
+                <span class="method-start">20685 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginTests({password=hewitt01, Runmode=Y, Text=Sanjay, Loginname=sanjaybadoni5@gmail.com})</span>
+                <span class="method-start">21442 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.Addproducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addItems({Item=Apple, Runmode=Y, Quantity=2.0})</span>
+                <span class="method-start">21442 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.AddMoreproducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addItems({Item=Almonds, Runmode=Y, Quantity=2.0})</span>
+                <span class="method-start">21442 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.Addproducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addItems({Item=orange, Runmode=Y, Quantity=1.0})</span>
+                <span class="method-start">21466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addItems({Item=Tomato, Runmode=Y, Quantity=5.0})</span>
+                <span class="method-start">21470 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.AddMoreproducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addItems({Item=grapes, Runmode=N, Quantity=1.0})</span>
+                <span class="method-start">48939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItems({Item=banana, Runmode=N, Quantity=5.0})</span>
+                <span class="method-start">48953 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">54025 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginTests({password=hewitt01, Runmode=N, Text=kanchan, Loginname=sanjaybadoni5@gmail.com})</span>
+                <span class="method-start">55811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">55814 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.AddMoreproducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">55866 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tsys.san.bigbasket.testcases.Addproducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quit</span>
+                <span class="method-start">70123 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

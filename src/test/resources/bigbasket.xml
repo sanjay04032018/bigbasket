@@ -1,0 +1,22 @@
+<suite name="bigbasket" parallel="classes" thread-count="3">
+    
+    <listeners>
+        <listener class-name="com.tsys.san.util.Listeners"/>
+    </listeners>
+    
+    <test name="simpletests">
+        <classes>
+            <class name="com.tsys.san.bigbasket.testcases.LoginTest" > </class>
+             <class name="com.tsys.san.bigbasket.testcases.Addproducts" > </class>
+                <class name="com.tsys.san.bigbasket.testcases.AddMoreproducts" > </class>
+        </classes>
+    </test>
+    <test name="simpletests1">
+        <classes>
+           
+              
+        </classes>
+    </test>
+    
+    
+</suite>
